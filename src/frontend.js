@@ -5,7 +5,6 @@ const divsToUpdate = document.querySelectorAll(".boilerplate-update-me")
 
 divsToUpdate.forEach(div => {
   const data = JSON.parse(div.querySelector("pre").innerText)
-  console.log('data: ',data);
   ReactDOM.render(<OurComponent {...data} />, div)
   div.classList.remove("boilerplate-update-me")
 })
@@ -13,7 +12,7 @@ divsToUpdate.forEach(div => {
 function OurComponent(props) {
   const listbets = JSON.parse(props.lists);
   const isSidebar = props.isSidebar;
-  console.log('front-end loaded', 'isSidebar: ', props.isSidebar);
+  console.log('front-end loaded');
   const Sidebar = ({ listbets }) => {
     return (
       <div className="flex flex-col space-y-1">
