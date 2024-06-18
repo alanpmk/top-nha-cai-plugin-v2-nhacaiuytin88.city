@@ -175,7 +175,7 @@ function OurComponent(props) {
       className: "flex flex-1 justify-center space-x-2 py-2 items-center text-center mt-1 border-t border-green-500"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
       href: item.link,
-      className: `w-full bg-[#57AC68] hover:bg-[#4c965b] text-sm font-light text-center px-2 py-2 rounded-none flex items-center justify-center space-x-1 whitespace-nowrap
+      className: `w-full bg-gradient-to-r from-red-600 to-orange-500 hover:bg-gradient-to-l drop-shadow-lg text-sm font-light text-center px-2 py-2 rounded-none flex items-center justify-center space-x-1 whitespace-nowrap
                  `,
       target: "_blank",
       rel: "nofollow sponsored noopener"
@@ -201,30 +201,52 @@ function OurComponent(props) {
     return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, listbets && listbets.map((item, index) => (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
       className: `topnhacai-${index} my-5 relative`
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-      className: ` ${index < 3 ? 'bg-[#57AC68]' : 'bg-orange-500'} bg-cover absolute z-[1] -top-[1px] left-0 w-[30px] h-[30px] inline-block text-base font-bold text-white leading-7 text-center`
-    }, "#", index + 1), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: ` ${index < 3 ? 'bg-[url(https://topgamebai.biz/wp-content/themes/flatsome-child/images/medal_orange.png)]' : 'bg-[url(https://topgamebai.biz/wp-content/themes/flatsome-child/images/medal_blue.png)]'} bg-cover absolute z-[1] -top-[15px] left-0 w-[30px] h-[38px] inline-block text-base font-bold text-white leading-7 text-center`
+    }, index + 1), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
       className: `bg-white drop-shadow-lg p-2 text-black shadow-xl border border-slate-100`
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
       className: "flex justify-center space-x-2"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-      className: "flex items-center justify-center w-[30%] md:w-[20%] md:border-r border-green-200"
+      className: "flex items-center justify-center w-[30%] md:w-[20%] md:border-r border-red-200"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
       src: item.logo,
       alt: "",
       className: "avatar w-24 h-24 rounded-lg"
     })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-      className: "w-[70%] md:w-[30%] md:border-r border-green-200 text-center px-1"
+      className: "w-[70%] md:w-[30%] md:border-r border-red-200 text-center px-1"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
       className: "text-lg text-orange-600 font-bold"
     }, item.name), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
-      className: "text-green-500 text-lg font-bold"
+      className: "text-red-500 text-lg font-bold"
     }, item.giftTitle), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
       className: "text-sm font-bold"
     }, item.giftDesc)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: "description flex justify-center items-center text-center w-[25%]  md:border-r border-red-200"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+      className: ""
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
+      className: "my-0 relative"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+      class: "bx bxs-star text-yellow-500 text-xs"
+    }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+      class: "bx bxs-star text-yellow-500 text-xs"
+    }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+      class: "bx bxs-star text-yellow-500 text-xs"
+    }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+      class: "bx bxs-star text-yellow-500 text-xs"
+    }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+      class: "bx bxs-star text-yellow-500 text-xs"
+    }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+      src: "https://topgamebai.biz/wp-content/uploads/2024/05/hot.gif",
+      className: "absolute -top-2 -right-3"
+    })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+      className: "text-sm text-[#087be7] font-bold ",
+      href: "/"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, item.slogan)))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
       className: "description relative flex flex-col justify-center items-center w-[25%] space-y-2"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
       href: item.link,
-      className: `min-w-40 bg-[#57AC68] hover:bg-[#4c965b] text-sm font-light text-center px-2 py-2 rounded-none flex items-center justify-center space-x-1 whitespace-nowrap
+      className: `min-w-40 bg-gradient-to-r from-red-600 to-orange-500  hover:-translate-y-1 transition-all duration-50 drop-shadow-lg border-2 border-yellow-500 text-sm font-light text-center px-2 py-2 rounded-none flex items-center justify-center space-x-1 whitespace-nowrap
                  `,
       target: "_blank",
       rel: "nofollow sponsored noopener"
@@ -246,7 +268,7 @@ function OurComponent(props) {
       className: "mb-description flex flex-1 justify-center space-x-2 py-2 items-center text-center mt-1 border-t border-red-500"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
       href: item.link,
-      className: `w-full bg-[#57AC68] hover:bg-[#4c965b] text-sm font-light text-center px-2 py-2 rounded-none flex items-center justify-center space-x-1 whitespace-nowrap
+      className: `w-full bg-gradient-to-r from-red-600 to-orange-500  drop-shadow-lg text-sm font-light text-center px-2 py-2 rounded-none flex items-center justify-center space-x-1 whitespace-nowrap
                  `,
       target: "_blank",
       rel: "nofollow sponsored noopener"
